@@ -1,7 +1,19 @@
+import java.util.Scanner;
 
+//반복문 이해하기 (6단: While문 7단: For문)
 public class Gugudan2 {
 	public static void main(String[] args) {
-		System.out.println();
+//        6단
+        int i = 1;
+        while(i < 10) {
+        	System.out.println(6 * i);
+        	i = i + 1;
+        }
+        
+//        7단
+        for(int j = 1; j < 10; j++) {
+        	System.out.println(7 * j);
+        }
 	}
 
 }
